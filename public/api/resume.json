@@ -1,0 +1,168 @@
+{
+  "educations": [
+    {
+      "name": "ITET Leonardo da Vinci",
+      "period": "2013 - 2018",
+      "cursus": "Informatica",
+      "learnt": "Programmazione<br>Front-end<br>Sistemi informatici"
+    }
+  ],
+  "experiences": [
+    {
+      "name": "WiseWeb",
+      "period": "2019 - Now",
+      "where": "Full Remote",
+      "role": "Front-end & UX/UI Design"
+    },
+    {
+      "name": "BooknBook ltd",
+      "period": "2019",
+      "where": "London",
+      "role": "Front-end"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Knowledge",
+      "skills": [
+        {
+          "name": "SEO",
+          "level": "2"
+        },
+        {
+          "name": "UI Design",
+          "level": "3"
+        },
+        {
+          "name": "UX Design",
+          "level": "2"
+        },
+        {
+          "name": "Database",
+          "level": "3"
+        },
+        {
+          "name": "Problem Solving",
+          "level": "4"
+        },
+        {
+          "name": "Version Control: Git",
+          "level": "4"
+        }
+      ]
+    },
+    {
+      "name": "Technologies",
+      "skills": [
+        {
+          "name": "HTML",
+          "level": "4"
+        },
+        {
+          "name": "CSS",
+          "level": "4"
+        },
+        {
+          "name": "SCSS",
+          "level": "4"
+        },
+        {
+          "name": "PHP",
+          "level": "2"
+        },
+        {
+          "name": "MySQL",
+          "level": "3"
+        },
+        {
+          "name": "JavaScript",
+          "level": "4"
+        },
+        {
+          "name": "JQuery",
+          "level": "4"
+        },
+        {
+          "name": "React.js",
+          "level": "4"
+        },
+        {
+          "name": "Vue.js",
+          "level": "1"
+        }
+      ]
+    },
+    {
+      "name": "Software",
+      "skills": [
+        {
+          "name": "Adobe XD",
+          "level": "3"
+        },
+        {
+          "name": "Adobe Photoshop",
+          "level": "3"
+        },
+        {
+          "name": "Figma",
+          "level": "4"
+        },
+        {
+          "name": "Visual Studio Code",
+          "level": "3"
+        }
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "lang": "Italian",
+      "desc": "Mothertongue",
+      "level": "100"
+    },
+    {
+      "lang": "English",
+      "desc": "B2",
+      "level": "75"
+    },
+    {
+      "lang": "French",
+      "desc": "Basic",
+      "level": "25"
+    }
+  ],
+  "hobbies": [
+    {
+      "name": "Cinema",
+      "icon": "fas fa-film"
+    },
+    {
+      "name": "Games",
+      "icon": "fas fa-gamepad"
+    },
+    {
+      "name": "Music",
+      "icon": "fas fa-headphones-alt"
+    },
+    {
+      "name": "CrossFit",
+      "icon": "fas fa-dumbbell"
+    },
+    {
+      "name": "Travelling",
+      "icon": "fas fa-plane-departure"
+    },
+    {
+      "name": "Tech",
+      "icon": "fas fa-laptop-code"
+    },
+    {
+      "name": "Personal Finance",
+      "icon": "fas fa-hand-holding-usd"
+    },
+    {
+      "name": "Books",
+      "icon": "fas fa-book"
+    }
+  ]
+}

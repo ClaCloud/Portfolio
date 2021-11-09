@@ -1,0 +1,130 @@
+[
+  {
+    "id": 8,
+    "name": "Naturally",
+    "desc": "Landing page and product list of a import export company",
+    "data": "November 7, 2021",
+    "img": "https://www.site-shot.com/cached_image/Ys0yMD_qEeynMQJCrBEAAg",
+    "slug": "naturally",
+    "body": "<div class=\"iframe\"><iframe src=\"https://naturallysrl.it/\" data-hj-allow-iframe></iframe></div>",
+    "prev": {
+      "name": "Ristorante L'acquapazza",
+      "slug": "acquapazza"
+    }
+  },
+  {
+    "id": 7,
+    "name": "Ristorante L'acquapazza",
+    "desc": "Landing page and menu of a fish resturant",
+    "data": "November 7, 2021",
+    "img": "https://www.site-shot.com/cached_image/EyFEjj_pEeyaiQJCrBEAAg",
+    "slug": "acquapazza",
+    "body": "<div class=\"iframe\"><iframe src=\"https://ristorantelacquapazza.it/\" data-hj-allow-iframe></iframe></div>",
+    "next": {
+      "name": "Naturally",
+      "slug": "naturally"
+    },
+    "prev": {
+      "name": "WebsiteStrategy",
+      "slug": "WebsiteStrategy"
+    }
+  },
+  {
+    "id": 6,
+    "name": "WebsiteStrategy",
+    "desc": "Marketing Landing Page",
+    "data": "June 19, 2020",
+    "img": "/img/websitestrategy.jpg",
+    "slug": "WebsiteStrategy",
+    "body": "<div class=\"iframe\"><iframe src=\"https://websitestrategy.it/\" data-hj-allow-iframe></iframe></div>",
+    "next": {
+      "name": "Ristorante L'acquapazza",
+      "slug": "acquapazza"
+    },
+    "prev": {
+      "name": "EndlessGames",
+      "slug": "endlessgames"
+    }
+  },
+  {
+    "id": 5,
+    "name": "EndlessGames",
+    "desc": "Landing Page of Minecraft Server",
+    "data": "April 10, 2020",
+    "img": "/img/endlessgames.jpg",
+    "slug": "endlessgames",
+    "body": "<div class=\"iframe\"><iframe src=\"https://endlessgames.it/\" data-hj-allow-iframe></iframe></div>",
+    "next": {
+      "name": "WebsiteStrategy",
+      "slug": "WebsiteStrategy"
+    },
+    "prev": {
+      "name": "Grocery",
+      "slug": "grocery"
+    }
+  },
+  {
+    "id": 4,
+    "name": "Grocery",
+    "desc": "Concept idea for a grocery App",
+    "data": "April 20, 2020",
+    "img": "https://mir-s3-cdn-cf.behance.net/project_modules/1400_opt_1/db5b2995660297.5e9ccb40bfc17.png",
+    "slug": "grocery",
+    "body": "<img src=\"https://mir-s3-cdn-cf.behance.net/project_modules/1400_opt_1/db5b2995660297.5e9ccb40bfc17.png\" alt=\"\" width=\"100%\" /><img src=\"https://mir-s3-cdn-cf.behance.net/project_modules/1400_opt_1/3a62bb95660297.5e9ccb40c0900.gif\" alt=\"\" width=\"100%\" /><img src=\"https://mir-s3-cdn-cf.behance.net/project_modules/1400_opt_1/fda6d695660297.5e9d929e2d5fb.png\" alt=\"\" width=\"100%\" />",
+    "next": {
+      "name": "EndlessGames",
+      "slug": "endlessgames"
+    },
+    "prev": {
+      "name": "Coffee Order",
+      "slug": "coffee"
+    }
+  },
+  {
+    "id": 3,
+    "name": "Coffee Order",
+    "desc": "Concept idea for a Coffee App",
+    "data": "April 4, 2020",
+    "img": "https://mir-s3-cdn-cf.behance.net/project_modules/1400_opt_1/16be8794825311.5e984a7e270c1.png",
+    "slug": "coffee",
+    "body": "<img src=\"https://mir-s3-cdn-cf.behance.net/project_modules/1400_opt_1/16be8794825311.5e984a7e270c1.png\" alt=\"\" width=\"100%\" /><img src=\"https://mir-s3-cdn-cf.behance.net/project_modules/1400_opt_1/88feeb94825311.5e887163d6bbe.gif\" alt=\"\" width=\"100% \" /><img src=\"https://mir-s3-cdn-cf.behance.net/project_modules/1400_opt_1/24a93494825311.5e887163d723c.png\" alt=\"\" width=\"100% \" />",
+    "next": {
+      "name": "Grocery",
+      "slug": "grocery"
+    },
+    "prev": {
+      "name": "Window Company",
+      "slug": "window-company"
+    }
+  },
+  {
+    "id": 2,
+    "name": "Window Company",
+    "desc": "Concept idea for a landing page of a window store",
+    "data": "March 19, 2020",
+    "img": "https://mir-s3-cdn-cf.behance.net/projects/max_808/23068e94012649.Y3JvcCwxNDAwLDEwOTUsMCww.png",
+    "slug": "window-company",
+    "body": "<img src=\"https://mir-s3-cdn-cf.behance.net/project_modules/fs/420a5b94012649.5e739cd1c383a.png\" alt=\"\" width=\"100%\" />",
+    "next": {
+      "name": "Coffee Order",
+      "slug": "coffee"
+    },
+    "prev": {
+      "name": "EndlessWebsite",
+      "slug": "endlesswebsite"
+    }
+  },
+  {
+    "id": 1,
+    "name": "EndlessWebsite",
+    "desc": "Website",
+    "data": "November 18, 2019",
+    "img": "/img/endlesswebsite.png",
+    "slug": "endlesswebsite",
+    "body": "<div class=\"iframe\"><iframe src=\"https://endlesswebsite.it/\" data-hj-allow-iframe></iframe></div>",
+    "next": {
+      "name": "Window Company",
+      "slug": "window-company"
+    }
+  }
+]
