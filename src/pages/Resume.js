@@ -1,14 +1,35 @@
 import { useState, useEffect } from 'react';
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/swiper.min.css";
-import '../print.scss';
+import '../style/print.scss';
+
+// import $ from 'jquery';
+// import jsPDF from 'jspdf';
 
 export default function Resume() {
 
-  const [resume, setResume] = useState({ educations: [], experiences: [], skills: [], languages: [], hobbies: [] });
+  const [resume, setResume] = useState({ contatti: [], educations: [], experiences: [], skills: [], languages: [], hobbies: [] });
+
+  // var doc = new jsPDF();
+  // var specialElementHandlers = {
+  //   '#editor': function (element, renderer) {
+  //     return false;
+  //   }
+  // };
+
+  // const savePDF = () => {
+  //   doc.save('Claudio_La_Rosa_CV.pdf');
+  //   console.log(document.body);
+  // }
 
   useEffect(() => {
     fetchData();
+    // doc.html(document.body, {
+    //   'x': 0,
+    //   'y': 0,
+    //   'width': 170,
+    //   'elementHandlers': specialElementHandlers
+    // });
   }, []);
 
   const fetchData = () => {
@@ -22,8 +43,8 @@ export default function Resume() {
   }
 
   return (
-    <div className="frame">
-      <div className="container landing">
+    <div className="frame" id="pdf">
+      <div className="container landing no-print">
         <h1>Resume</h1>
         <div className="selection">
           <a href="#Education" className="button mini"><span>Education</span></a>
@@ -31,6 +52,22 @@ export default function Resume() {
           <a href="#Design" className="button mini"><span>Design Skills</span></a>
           <a href="#Languages" className="button mini"><span>Languages</span></a>
           <a href="#Hobbies" className="button mini"><span>Hobbies</span></a>
+        </div>
+      </div>
+      <div className="landing only-print">
+        <div className="propic">
+          <img src="/img/photo.jpg" title="claudio la rosa profile photo" />
+        </div>
+        <div className="dati">
+          <h1>Claudio La Rosa</h1>
+          <div className="contatti">
+            {resume.contatti.map(rec => (
+              <div className="single">
+                <i className={rec.icon}></i>
+                <span>{rec.data}</span>
+              </div>
+            ))}
+          </div>
         </div>
       </div>
       <div className="container">
@@ -85,9 +122,9 @@ export default function Resume() {
         <div className="row print_nowrap">
           <div className="col center">
             <h3 id="Languages">Languages</h3>
-            <div className="row print_nowrap">
+            <Swiper slidesPerView={"auto"} spaceBetween={30} className="mySwiper">
               {resume.languages.map(lang => (
-                <div className="col-3">
+                <SwiperSlide>
                   <figure className={`chart-${lang.level} animate`}>
                     <svg role="img" xmlns="http://www.w3.org/2000/svg">
                       <title>{lang.lang}</title>
@@ -100,9 +137,9 @@ export default function Resume() {
                       {lang.desc}
                     </div>
                   </figure>
-                </div>
+                </SwiperSlide>
               ))}
-            </div>
+            </Swiper>
           </div>
         </div>
       </div>
@@ -122,6 +159,7 @@ export default function Resume() {
         </div>
       </div>
       <div className="button mini print" onClick={() => window.print()}>
+      {/* <div className="button mini print" onClick={savePDF}> */}
         <span>Print or Save</span>
         <dot>.</dot><dot>.</dot><dot>.</dot>
       </div>

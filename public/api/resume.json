@@ -1,4 +1,26 @@
 {
+  "contatti": [
+    {
+      "icon": "fas fa-phone",
+      "data": "+39 347 897 5202"
+    },
+    {
+      "icon": "fas fa-envelope",
+      "data": "clacloud99@gmail.com"
+    },
+    {
+      "icon": "fab fa-linkedin",
+      "data": "linkedin.com/clacloud"
+    },
+    {
+      "icon": "fab fa-instagram",
+      "data": "ClaCloud99"
+    },
+    {
+      "icon": "fal fa-globe",
+      "data": "clacloud.it"
+    }
+  ],
   "educations": [
     {
       "name": "ITET Leonardo da Vinci",

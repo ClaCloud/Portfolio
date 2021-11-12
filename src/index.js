@@ -3,7 +3,8 @@ import ReactDOM from 'react-dom';
 import App from './Routes';
 import reportWebVitals from './reportWebVitals';
 
-import './style.scss';
+import './style/style.scss';
+import './style/all.min.css';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -16,3 +17,9 @@ ReactDOM.render(
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
+console.info(`
+     /\\
+ )  ( ')
+ (  / \\)
+  \\(_)_\\
+ ClaCloud`);

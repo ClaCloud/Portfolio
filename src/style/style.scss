@@ -13,17 +13,17 @@ $nero05n: #323232;
 
 @font-face {
   font-family: Gilroy;
-  src: url("./font/Gilroy-Light.otf");
+  src: url("../webfonts/Gilroy-Light.otf");
   font-weight: 300;
 }
 @font-face {
   font-family: Gilroy;
-  src: url("./font/Gilroy-Medium.woff");
+  src: url("../webfonts/Gilroy-Medium.woff");
   font-weight: 500;
 }
 @font-face {
   font-family: Gilroy;
-  src: url("./font/Gilroy-ExtraBold.otf");
+  src: url("../webfonts/Gilroy-ExtraBold.otf");
   font-weight: 800;
 }
 html {
@@ -1524,6 +1524,9 @@ footer {
   .design {
     display: flex;
     margin: 5px 0;
+    &:last-child{
+      margin-bottom: 15px;
+    }
     .title {
       width: 100%;
       max-width: max-content;
@@ -1579,7 +1582,7 @@ footer {
       width: auto;
     }
   }
-  .hobbies{
+  .hobbies {
     width: calc(100% + 40px);
     margin: 0 -20px;
     padding: 0 20px;
@@ -1906,5 +1909,10 @@ $pi: 3.14;
 @keyframes offset {
   100% {
     stroke-dashoffset: 0;
+  }
+}
+@media screen {
+  .only-print {
+    display: none;
   }
 }
