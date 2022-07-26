@@ -1,32 +1,15 @@
 [
   {
     "id": 8,
-    "name": "Naturally",
-    "desc": "Landing page and product list of a import export company",
-    "data": "November 7, 2021",
-    "img": "https://www.site-shot.com/cached_image/Ys0yMD_qEeynMQJCrBEAAg",
+    "name": "Minecraft ITALIA",
+    "desc": "minecraft server list",
+    "data": "June 30, 2022",
+    "img": "https://minecraft-italia.net/data/assets/logo/minecraft-italia-banner.jpg",
     "slug": "naturally",
-    "body": "<div class=\"iframe\"><iframe src=\"https://naturallysrl.it/\" data-hj-allow-iframe></iframe></div>",
+    "body": "<div class=\"iframe\"><iframe src=\"https://minecraft-italia.net/lista\" data-hj-allow-iframe></iframe></div>",
     "prev": {
       "name": "Ristorante L'acquapazza",
       "slug": "acquapazza"
-    }
-  },
-  {
-    "id": 7,
-    "name": "Ristorante L'acquapazza",
-    "desc": "Landing page and menu of a fish resturant",
-    "data": "November 7, 2021",
-    "img": "https://www.site-shot.com/cached_image/EyFEjj_pEeyaiQJCrBEAAg",
-    "slug": "acquapazza",
-    "body": "<div class=\"iframe\"><iframe src=\"https://ristorantelacquapazza.it/\" data-hj-allow-iframe></iframe></div>",
-    "next": {
-      "name": "Naturally",
-      "slug": "naturally"
-    },
-    "prev": {
-      "name": "WebsiteStrategy",
-      "slug": "WebsiteStrategy"
     }
   },
   {

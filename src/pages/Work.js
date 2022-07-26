@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import  { Redirect } from 'react-router-dom'
 
 export default function Work(props) {
   const slug = props.match.params.slug;
@@ -17,7 +18,6 @@ export default function Work(props) {
   });
 
   useEffect(() => {
-
     fetchData();
   }, []);
 
@@ -27,7 +27,12 @@ export default function Work(props) {
     ])
       .then(([res1]) => Promise.all([res1.json()]))
       .then(([data1]) => {
-        setWork(data1.find(x => x.slug === slug));
+        const work = data1.find(x => x.slug === slug)
+        if(work){
+          setWork(work);
+        } else {
+          return <Redirect to='/not_found'/>
+        }
       });
   }
 

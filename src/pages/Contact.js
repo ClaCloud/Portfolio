@@ -10,7 +10,7 @@ export default function Contact() {
 
     $.ajax({
       type: "POST",
-      url: `/api/mail.php`,
+      url: `php.clacloud.it/mail.php`,
       data: {
         email: form.email,
         name: form.name,
