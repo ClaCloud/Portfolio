@@ -1,12 +1,34 @@
+import { useState, useEffect } from "react";
+
 export default function Footer() {
+  const [socials, setSocials] = useState([]);
+
+  const fetchData = () => {
+    Promise.all([fetch(`/api/socials.json`)])
+      .then(([res1]) => Promise.all([res1.json()]))
+      .then(([data1]) => {
+        setSocials(data1);
+      });
+  };
+
+  useEffect(() => {
+    fetchData();
+  }, []);
 
   return (
     <>
-      <a className="go-top" onClick={() => document.querySelector(".body").scrollTo({
-        top: 0,
-        behavior: 'smooth'
-      })}>
-        <span><i className="fas fa-chevron-up"></i></span>
+      <a
+        className="go-top"
+        onClick={() =>
+          document.querySelector(".body").scrollTo({
+            top: 0,
+            behavior: "smooth",
+          })
+        }
+      >
+        <span>
+          <i className="fas fa-chevron-up"></i>
+        </span>
         <span>Go Top</span>
       </a>
       <footer>
@@ -15,13 +37,19 @@ export default function Footer() {
             This site is entirely handcrafted © Claudio La Rosa 2020
           </div>
           <div className="socials">
-            <a href="https://www.behance.net/clacloud" target="_blank" rel="noreferrer"><i className="fab fa-behance"></i></a>
-            <a href="https://www.linkedin.com/in/claudio-la-rosa-a871bb17b/" target="_blank" rel="noreferrer"><i className="fab fa-linkedin-in"></i></a>
-            <a href="https://www.instagram.com/clacloud99/" target="_blank" rel="noreferrer"><i className="fab fa-instagram"></i></a>
+            {socials.map((social) => (
+              <a
+                href={social.link}
+                target="_blank"
+                rel="noreferrer"
+              >
+                <i className={social.icona}></i>
+              </a>
+            ))}
           </div>
         </div>
       </footer>
       <div className="global info-wrapper"></div>
     </>
   );
-};
+}

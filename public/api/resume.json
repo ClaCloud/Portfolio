@@ -19,6 +19,10 @@
     {
       "icon": "fal fa-globe",
       "data": "clacloud.it"
+    },
+    {
+      "icon": "fab fa-github",
+      "data": "https://github.com/ClaCloud"
     }
   ],
   "educations": [

@@ -1,0 +1,17 @@
+[
+  {
+    "label": "linkedin",
+    "icona": "fab fa-linkedin-in",
+    "link": "https://www.linkedin.com/in/claudio-la-rosa-a871bb17b/"
+  },
+  {
+    "label": "github",
+    "icona": "fab fa-github",
+    "link": "https://github.com/ClaCloud"
+  },
+  {
+    "label": "instagram",
+    "icona": "fab fa-instagram",
+    "link": "https://www.instagram.com/clacloud99/"
+  }
+]

@@ -1,6 +1,20 @@
-import { NavLink, useLocation } from 'react-router-dom';
+import { useState, useEffect } from "react";
+import { NavLink, useLocation } from "react-router-dom";
 
 export default function Navbar() {
+  const [socials, setSocials] = useState([]);
+
+  const fetchData = () => {
+    Promise.all([fetch(`/api/socials.json`)])
+      .then(([res1]) => Promise.all([res1.json()]))
+      .then(([data1]) => {
+        setSocials(data1);
+      });
+  };
+
+  useEffect(() => {
+    fetchData();
+  }, []);
 
   return (
     <header className="navbar">
@@ -30,18 +44,20 @@ export default function Navbar() {
                 </NavLink>
               </li>
             </ul>
-          </nav >
+          </nav>
           <div className="socials">
-            <a href="https://www.behance.net/clacloud" target="_blank" rel="noreferrer"><i className="fab fa-behance"></i></a>
-            <a href="https://www.linkedin.com/in/claudio-la-rosa-a871bb17b/" target="_blank" rel="noreferrer"><i className="fab fa-linkedin-in"></i></a>
-            <a href="https://www.instagram.com/clacloud99/" target="_blank" rel="noreferrer"><i className="fab fa-instagram"></i></a>
+            {socials.map((social) => (
+              <a href={social.link} target="_blank" rel="noreferrer">
+                <i className={social.icona}></i>
+              </a>
+            ))}
           </div>
-        </div >
-      </nav >
+        </div>
+      </nav>
       <button id="nav-btn" className="activator">
         <div className="line"></div>
       </button>
       <a className="activator nav-separator"></a>
-    </header >
+    </header>
   );
-};
+}
