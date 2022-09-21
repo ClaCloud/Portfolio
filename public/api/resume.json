@@ -17,12 +17,12 @@
       "data": "ClaCloud99"
     },
     {
-      "icon": "fal fa-globe",
+      "icon": "far fa-globe",
       "data": "clacloud.it"
     },
     {
       "icon": "fab fa-github",
-      "data": "https://github.com/ClaCloud"
+      "data": "github.com/ClaCloud"
     }
   ],
   "educations": [
