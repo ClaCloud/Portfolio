@@ -106,11 +106,7 @@ export default function Resume() {
                     <div className="design">
                       <div className="title">{skill.name}</div>
                       <div className={`dot n-${skill.level}`}>
-                        <i className="far fa-circle"></i>
-                        <i className="far fa-circle"></i>
-                        <i className="far fa-circle"></i>
-                        <i className="far fa-circle"></i>
-                        <i className="far fa-circle"></i>
+                        {[1,2,3,4,5].map(level => <i className={`${level <= skill.level ? "far" : "fad"} fa-microchip`}></i>)}
                       </div>
                     </div>
                   ))}

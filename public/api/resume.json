@@ -13,8 +13,12 @@
       "data": "linkedin.com/clacloud"
     },
     {
-      "icon": "fab fa-instagram",
-      "data": "ClaCloud99"
+      "icon": "fas fa-cake-candles",
+      "data": "4 Marzo 1999"
+    },
+    {
+      "icon": "fas fa-location-dot",
+      "data": "Turin, TO"
     },
     {
       "icon": "far fa-globe",
@@ -37,8 +41,8 @@
     {
       "name": "Bit2Win",
       "period": "December 2021 - Now",
-      "where": "Rome",
-      "role": "Junior Front-end Developer"
+      "where": "Rome / Milan (Remote)",
+      "role": "Software Developer"
     },
     {
       "name": "WiseWeb",
@@ -50,7 +54,7 @@
       "name": "BooknBook ltd",
       "period": "February 2019 - June 2019",
       "where": "London",
-      "role": "Front-end"
+      "role": "Front-end Developer"
     }
   ],
   "skills": [
@@ -63,22 +67,22 @@
         },
         {
           "name": "UI Design",
-          "level": "3"
+          "level": "4"
         },
         {
           "name": "UX Design",
-          "level": "2"
+          "level": "3"
         },
         {
           "name": "Database",
-          "level": "3"
+          "level": "4"
         },
         {
           "name": "Problem Solving",
           "level": "4"
         },
         {
-          "name": "Version Control: Git",
+          "name": "Git",
           "level": "4"
         }
       ]
@@ -91,20 +95,24 @@
           "level": "4"
         },
         {
-          "name": "JavaScript",
+          "name": "TypeScript",
           "level": "4"
         },
         {
           "name": "React",
-          "level": "3"
-        },
-        {
-          "name": "Angular",
           "level": "4"
         },
         {
-          "name": "Vue.js",
-          "level": "1"
+          "name": "Angular",
+          "level": "5"
+        },
+        {
+          "name": "Python",
+          "level": "2"
+        },
+        {
+          "name": "Node",
+          "level": "3"
         },
         {
           "name": "PHP",
@@ -129,11 +137,11 @@
         },
         {
           "name": "Figma",
-          "level": "4"
+          "level": "3"
         },
         {
           "name": "Visual Studio Code",
-          "level": "3"
+          "level": "4"
         }
       ]
     }

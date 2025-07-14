@@ -123,7 +123,7 @@ export default function Contact() {
                 <i className="fas fa-map-marker-alt"></i>
                 Currently based in
               </span>
-              Messina, Sicily
+              Torino
             </div>
             <div className="liv">
               <span>
