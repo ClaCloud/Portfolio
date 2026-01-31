@@ -212,7 +212,11 @@ label {
     font-size: 20px;
     padding: 10px;
     z-index: 0;
-    transition: font-size 0.3s, top 0.3s, padding 0.3s, z-index 0.3s;
+    transition:
+      font-size 0.3s,
+      top 0.3s,
+      padding 0.3s,
+      z-index 0.3s;
     &::before {
       content: "";
       position: absolute;
@@ -223,7 +227,9 @@ label {
       background: $nero;
       z-index: -1;
       opacity: 0;
-      transition: background 0.3s, opacity 0.3s;
+      transition:
+        background 0.3s,
+        opacity 0.3s;
     }
   }
   input,
@@ -258,7 +264,10 @@ label {
       right: 0;
       width: 0;
       height: 3px;
-      transition: width 0.3s, left 0.3s, right 0.3s;
+      transition:
+        width 0.3s,
+        left 0.3s,
+        right 0.3s;
     }
     &:focus {
       outline: none;
@@ -386,14 +395,23 @@ label {
     border-radius: 15px;
     font-weight: 500;
     align-items: center;
-    transition: width 0.3s, height 0.3s, text-align 0.3s, font-size 0.3s, top 0.3s, right 0.3s, transform 0.3s,
+    transition:
+      width 0.3s,
+      height 0.3s,
+      text-align 0.3s,
+      font-size 0.3s,
+      top 0.3s,
+      right 0.3s,
+      transform 0.3s,
       align-items 0.3s;
     .more {
       display: none;
       margin-top: 10px;
       font-size: 25px;
       opacity: 0;
-      transition: opacity 0.3s, display 0.3s;
+      transition:
+        opacity 0.3s,
+        display 0.3s;
       a {
         font-weight: bold;
         color: $secondary;
@@ -476,7 +494,12 @@ footer {
   -ms-transform: scale(1) translate3d(0, 0, 0);
   -o-transform: scale(1) translate3d(0, 0, 0);
   transform: scale(1) translate3d(0, 0, 0);
-  transition: filter 0.5s, transform 0.5s, transform-origin 0.5s, border-radius 0.5s, opacity 0.5s;
+  transition:
+    filter 0.5s,
+    transform 0.5s,
+    transform-origin 0.5s,
+    border-radius 0.5s,
+    opacity 0.5s;
   border-radius: 0px;
   background: $nero;
   .frame {
@@ -563,7 +586,9 @@ footer {
     width: 0px;
     animation-duration: 1s;
     animation-iteration-count: infinite;
-    transition: top 0.3s, width 0.3s;
+    transition:
+      top 0.3s,
+      width 0.3s;
     &:nth-child(2) {
       animation-delay: 0s;
     }
@@ -830,7 +855,11 @@ footer {
         height: 6px;
         border-radius: 10px;
         background: $bianco;
-        transition: width 0.2s, transform 0.2s, top 0.2s, left 0.2s;
+        transition:
+          width 0.2s,
+          transform 0.2s,
+          top 0.2s,
+          left 0.2s;
         left: 0;
       }
       &::before {
@@ -1130,7 +1159,12 @@ footer {
             background-clip: text;
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
-            background-image: linear-gradient(to bottom, $bianco 50%, $primary 50%, $secondary);
+            background-image: linear-gradient(
+              to bottom,
+              $bianco 50%,
+              $primary 50%,
+              $secondary
+            );
             background-size: 100% 200%;
             background-position: center 0;
             position: relative;
@@ -1274,7 +1308,9 @@ footer {
           border-radius: 10px;
           opacity: 0;
           visibility: hidden;
-          transition: opacity 0.3s, top 0.3s;
+          transition:
+            opacity 0.3s,
+            top 0.3s;
         }
         &:first-child {
           left: 0;
@@ -1524,7 +1560,7 @@ footer {
   .design {
     display: flex;
     margin: 5px 0;
-    &:last-child{
+    &:last-child {
       margin-bottom: 15px;
     }
     .title {
@@ -1696,13 +1732,17 @@ footer {
         &#_5x5-2,
         &#_6x5-2,
         &#_9x5-2 {
-          transition: opacity 0.3s ease-in-out 0s, fill 0.3s;
+          transition:
+            opacity 0.3s ease-in-out 0s,
+            fill 0.3s;
         }
         &#_3x4-2,
         &#_4x4-2,
         &#_6x4-2,
         &#_9x4-2 {
-          transition: opacity 0.3s ease-in-out 0.2s, fill 0.3s;
+          transition:
+            opacity 0.3s ease-in-out 0.2s,
+            fill 0.3s;
         }
         &#_1x3-2,
         &#_2x3-2,
@@ -1712,7 +1752,9 @@ footer {
         &#_7x3-2,
         &#_8x3-2,
         &#_9x3-2 {
-          transition: opacity 0.3s ease-in-out 0.4s, fill 0.3s;
+          transition:
+            opacity 0.3s ease-in-out 0.4s,
+            fill 0.3s;
         }
         &#_1x2-2,
         &#_3x2-2,
@@ -1720,7 +1762,9 @@ footer {
         &#_6x2-2,
         &#_7x2-2,
         &#_9x2-2 {
-          transition: opacity 0.3s ease-in-out 0.6s, fill 0.3s;
+          transition:
+            opacity 0.3s ease-in-out 0.6s,
+            fill 0.3s;
         }
         &#_1x1-2,
         &#_3x1-2,
@@ -1729,7 +1773,9 @@ footer {
         &#_6x1-2,
         &#_7x1-2,
         &#_9x1-2 {
-          transition: opacity 0.3s ease-in-out 0.8s, fill 0.3s;
+          transition:
+            opacity 0.3s ease-in-out 0.8s,
+            fill 0.3s;
         }
         &:hover {
           fill: $secondary;
@@ -1902,7 +1948,9 @@ $pi: 3.14;
   }
   @keyframes #{$chart}-label {
     100% {
-      transform: translateY(map-get($param, labelFontSize) * (-(map-get($param, percentage))));
+      transform: translateY(
+        map-get($param, labelFontSize) * (-(map-get($param, percentage)))
+      );
     }
   }
 }
@@ -1914,5 +1962,166 @@ $pi: 3.14;
 @media screen {
   .only-print {
     display: none;
+  }
+}
+
+body.print {
+  @page {
+    size: A4 vertical;
+    margin: 0%;
+    -webkit-print-color-adjust: exact !important;
+  }
+
+  * {
+    -webkit-print-color-adjust: exact !important;
+    color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
+  height: 29.68cm !important;
+  overflow: unset !important;
+  font-size: 15px !important;
+  background: #272727;
+
+  .frame {
+    & > .container {
+      padding: 0 15px;
+    }
+
+    .landing {
+      padding: 20px;
+      display: flex;
+      align-items: center;
+      column-gap: 20px;
+
+      .propic {
+        position: relative;
+        flex-shrink: 0;
+        height: 100px;
+        width: 100px;
+        border-radius: 100%;
+        overflow: hidden;
+
+        img {
+          width: 100%;
+          position: absolute;
+          top: 65%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          min-width: 100%;
+          min-height: 100%;
+        }
+      }
+
+      .dati {
+        h1 {
+          font-size: 30px;
+          margin: 0 0 10px;
+        }
+
+        .contatti {
+          display: flex;
+          flex-wrap: wrap;
+          column-gap: 15px;
+          row-gap: 10px;
+          align-items: center;
+
+          .single {
+            display: flex;
+            column-gap: 8px;
+            align-items: center;
+
+            i {
+              font-size: 18px;
+            }
+          }
+        }
+      }
+    }
+
+    .chart-100,
+    .chart-75,
+    .chart-25 {
+      width: 100px;
+      height: 100px;
+
+      svg {
+        .circle-background,
+        .circle-foreground {
+          r: 42.5px;
+        }
+      }
+    }
+
+    .chart-75 svg .circle-foreground {
+      stroke-dasharray: 200.175px 266.9px;
+      stroke-dashoffset: 200.175px;
+    }
+
+    .chart-25 svg .circle-foreground {
+      stroke-dasharray: 66.725px 266.9px;
+      stroke-dashoffset: 66.725px;
+    }
+
+    figcaption {
+      font-size: 18px !important;
+    }
+
+    h3 {
+      margin: 0 0 10px !important;
+      padding: 20px 0 0 !important;
+      font-size: 25px !important;
+      font-weight: bold !important;
+
+      &#Design {
+        margin-top: 20px !important;
+        text-align: center;
+
+        & + .row {
+          h4 {
+            margin-bottom: 10px;
+          }
+        }
+      }
+    }
+
+    h4 {
+      font-size: 20px !important;
+    }
+
+    .h-line {
+      &:nth-child(2) {
+        margin-top: 20px !important;
+      }
+
+      &:not(:nth-child(2)) {
+        padding-top: 20px !important;
+      }
+
+      padding-bottom: 10px !important;
+
+      .where,
+      .cursus {
+        font-size: 16px !important;
+      }
+    }
+
+    .print_nowrap {
+      display: flex !important;
+      flex-wrap: nowrap !important;
+      column-gap: 15px;
+
+      .design {
+        align-items: center;
+      }
+    }
+  }
+
+  .no-print,
+  .button.print,
+  footer,
+  .go-top,
+  .navbar {
+    display: none !important;
   }
 }
